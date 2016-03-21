@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAFCF1E41C9F20A4000D0D4B /* ZRRImageClipView.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFCF1DF1C9F20A4000D0D4B /* ZRRImageClipView.h */; };
+		CAFCF1E51C9F20A4000D0D4B /* ZRRImageClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCF1E01C9F20A4000D0D4B /* ZRRImageClipView.m */; };
+		CAFCF1E61C9F20A4000D0D4B /* ZRRImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFCF1E11C9F20A4000D0D4B /* ZRRImageView.h */; };
+		CAFCF1E71C9F20A4000D0D4B /* ZRRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCF1E21C9F20A4000D0D4B /* ZRRImageView.m */; };
+		CAFCF1F01C9F20B3000D0D4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCF1EF1C9F20B3000D0D4B /* AppDelegate.m */; };
+		CAFCF1F31C9F20B3000D0D4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCF1F21C9F20B3000D0D4B /* main.m */; };
+		CAFCF1F51C9F20B3000D0D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFCF1F41C9F20B3000D0D4B /* Assets.xcassets */; };
+		CAFCF1F81C9F20B4000D0D4B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAFCF1F61C9F20B4000D0D4B /* MainMenu.xib */; };
+		CAFCF2031C9F20B4000D0D4B /* ZRRImageViewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCF2021C9F20B4000D0D4B /* ZRRImageViewAppUITests.m */; };
+		CAFCF20B1C9F20C2000D0D4B /* ZRRImageClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCF1E01C9F20A4000D0D4B /* ZRRImageClipView.m */; };
+		CAFCF20C1C9F20C2000D0D4B /* ZRRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCF1E21C9F20A4000D0D4B /* ZRRImageView.m */; };
+		CAFCF20D1C9F20D3000D0D4B /* ZRRImageClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCF1E01C9F20A4000D0D4B /* ZRRImageClipView.m */; };
+		CAFCF20E1C9F20D3000D0D4B /* ZRRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCF1E21C9F20A4000D0D4B /* ZRRImageView.m */; };
+		CAFCF20F1C9F20DC000D0D4B /* ZRRImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAFCF1E31C9F20A4000D0D4B /* ZRRImageView.xib */; };
+		CAFCF2101C9F2124000D0D4B /* ZRRImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFCF1DE1C9F20A4000D0D4B /* ZRRImage.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFCF1FF1C9F20B4000D0D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFCF1CA1C9F2067000D0D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFCF1EB1C9F20B3000D0D4B;
+			remoteInfo = ZRRImageViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAFCF1D21C9F2067000D0D4B /* libZRRImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZRRImageView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFCF1DE1C9F20A4000D0D4B /* ZRRImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZRRImage.xcassets; sourceTree = "<group>"; };
+		CAFCF1DF1C9F20A4000D0D4B /* ZRRImageClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRRImageClipView.h; sourceTree = "<group>"; };
+		CAFCF1E01C9F20A4000D0D4B /* ZRRImageClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRRImageClipView.m; sourceTree = "<group>"; };
+		CAFCF1E11C9F20A4000D0D4B /* ZRRImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRRImageView.h; sourceTree = "<group>"; };
+		CAFCF1E21C9F20A4000D0D4B /* ZRRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRRImageView.m; sourceTree = "<group>"; };
+		CAFCF1E31C9F20A4000D0D4B /* ZRRImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZRRImageView.xib; sourceTree = "<group>"; };
+		CAFCF1EC1C9F20B3000D0D4B /* ZRRImageViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRRImageViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFCF1EE1C9F20B3000D0D4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAFCF1EF1C9F20B3000D0D4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAFCF1F21C9F20B3000D0D4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAFCF1F41C9F20B3000D0D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFCF1F71C9F20B4000D0D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CAFCF1F91C9F20B4000D0D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFCF1FE1C9F20B4000D0D4B /* ZRRImageViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRRImageViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFCF2021C9F20B4000D0D4B /* ZRRImageViewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRRImageViewAppUITests.m; sourceTree = "<group>"; };
+		CAFCF2041C9F20B4000D0D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFCF1CF1C9F2067000D0D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCF1E91C9F20B3000D0D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCF1FB1C9F20B4000D0D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFCF1C91C9F2067000D0D4B = {
+			isa = PBXGroup;
+			children = (
+				CAFCF1D41C9F2067000D0D4B /* ZRRImageView */,
+				CAFCF1ED1C9F20B3000D0D4B /* ZRRImageViewApp */,
+				CAFCF2011C9F20B4000D0D4B /* ZRRImageViewAppUITests */,
+				CAFCF1D31C9F2067000D0D4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFCF1D31C9F2067000D0D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCF1D21C9F2067000D0D4B /* libZRRImageView.a */,
+				CAFCF1EC1C9F20B3000D0D4B /* ZRRImageViewApp.app */,
+				CAFCF1FE1C9F20B4000D0D4B /* ZRRImageViewAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFCF1D41C9F2067000D0D4B /* ZRRImageView */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCF1DE1C9F20A4000D0D4B /* ZRRImage.xcassets */,
+				CAFCF1DF1C9F20A4000D0D4B /* ZRRImageClipView.h */,
+				CAFCF1E01C9F20A4000D0D4B /* ZRRImageClipView.m */,
+				CAFCF1E11C9F20A4000D0D4B /* ZRRImageView.h */,
+				CAFCF1E21C9F20A4000D0D4B /* ZRRImageView.m */,
+				CAFCF1E31C9F20A4000D0D4B /* ZRRImageView.xib */,
+			);
+			path = ZRRImageView;
+			sourceTree = "<group>";
+		};
+		CAFCF1ED1C9F20B3000D0D4B /* ZRRImageViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCF1EE1C9F20B3000D0D4B /* AppDelegate.h */,
+				CAFCF1EF1C9F20B3000D0D4B /* AppDelegate.m */,
+				CAFCF1F41C9F20B3000D0D4B /* Assets.xcassets */,
+				CAFCF1F61C9F20B4000D0D4B /* MainMenu.xib */,
+				CAFCF1F91C9F20B4000D0D4B /* Info.plist */,
+				CAFCF1F11C9F20B3000D0D4B /* Supporting Files */,
+			);
+			path = ZRRImageViewApp;
+			sourceTree = "<group>";
+		};
+		CAFCF1F11C9F20B3000D0D4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCF1F21C9F20B3000D0D4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAFCF2011C9F20B4000D0D4B /* ZRRImageViewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCF2021C9F20B4000D0D4B /* ZRRImageViewAppUITests.m */,
+				CAFCF2041C9F20B4000D0D4B /* Info.plist */,
+			);
+			path = ZRRImageViewAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CAFCF1D01C9F2067000D0D4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCF1E61C9F20A4000D0D4B /* ZRRImageView.h in Headers */,
+				CAFCF1E41C9F20A4000D0D4B /* ZRRImageClipView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CAFCF1D11C9F2067000D0D4B /* ZRRImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFCF1DB1C9F2067000D0D4B /* Build configuration list for PBXNativeTarget "ZRRImageView" */;
+			buildPhases = (
+				CAFCF1CE1C9F2067000D0D4B /* Sources */,
+				CAFCF1CF1C9F2067000D0D4B /* Frameworks */,
+				CAFCF1D01C9F2067000D0D4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRRImageView;
+			productName = ZRRImageView;
+			productReference = CAFCF1D21C9F2067000D0D4B /* libZRRImageView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CAFCF1EB1C9F20B3000D0D4B /* ZRRImageViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFCF2051C9F20B4000D0D4B /* Build configuration list for PBXNativeTarget "ZRRImageViewApp" */;
+			buildPhases = (
+				CAFCF1E81C9F20B3000D0D4B /* Sources */,
+				CAFCF1E91C9F20B3000D0D4B /* Frameworks */,
+				CAFCF1EA1C9F20B3000D0D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRRImageViewApp;
+			productName = ZRRImageViewApp;
+			productReference = CAFCF1EC1C9F20B3000D0D4B /* ZRRImageViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFCF1FD1C9F20B4000D0D4B /* ZRRImageViewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFCF2081C9F20B4000D0D4B /* Build configuration list for PBXNativeTarget "ZRRImageViewAppUITests" */;
+			buildPhases = (
+				CAFCF1FA1C9F20B4000D0D4B /* Sources */,
+				CAFCF1FB1C9F20B4000D0D4B /* Frameworks */,
+				CAFCF1FC1C9F20B4000D0D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFCF2001C9F20B4000D0D4B /* PBXTargetDependency */,
+			);
+			name = ZRRImageViewAppUITests;
+			productName = ZRRImageViewAppUITests;
+			productReference = CAFCF1FE1C9F20B4000D0D4B /* ZRRImageViewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFCF1CA1C9F2067000D0D4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Zorroa;
+				TargetAttributes = {
+					CAFCF1D11C9F2067000D0D4B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CAFCF1EB1C9F20B3000D0D4B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CAFCF1FD1C9F20B4000D0D4B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CAFCF1EB1C9F20B3000D0D4B;
+					};
+				};
+			};
+			buildConfigurationList = CAFCF1CD1C9F2067000D0D4B /* Build configuration list for PBXProject "ZRRImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFCF1C91C9F2067000D0D4B;
+			productRefGroup = CAFCF1D31C9F2067000D0D4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFCF1D11C9F2067000D0D4B /* ZRRImageView */,
+				CAFCF1EB1C9F20B3000D0D4B /* ZRRImageViewApp */,
+				CAFCF1FD1C9F20B4000D0D4B /* ZRRImageViewAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFCF1EA1C9F20B3000D0D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCF2101C9F2124000D0D4B /* ZRRImage.xcassets in Resources */,
+				CAFCF20F1C9F20DC000D0D4B /* ZRRImageView.xib in Resources */,
+				CAFCF1F51C9F20B3000D0D4B /* Assets.xcassets in Resources */,
+				CAFCF1F81C9F20B4000D0D4B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCF1FC1C9F20B4000D0D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFCF1CE1C9F2067000D0D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCF1E51C9F20A4000D0D4B /* ZRRImageClipView.m in Sources */,
+				CAFCF1E71C9F20A4000D0D4B /* ZRRImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCF1E81C9F20B3000D0D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCF20D1C9F20D3000D0D4B /* ZRRImageClipView.m in Sources */,
+				CAFCF20E1C9F20D3000D0D4B /* ZRRImageView.m in Sources */,
+				CAFCF1F31C9F20B3000D0D4B /* main.m in Sources */,
+				CAFCF1F01C9F20B3000D0D4B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCF1FA1C9F20B4000D0D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCF20B1C9F20C2000D0D4B /* ZRRImageClipView.m in Sources */,
+				CAFCF20C1C9F20C2000D0D4B /* ZRRImageView.m in Sources */,
+				CAFCF2031C9F20B4000D0D4B /* ZRRImageViewAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFCF2001C9F20B4000D0D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFCF1EB1C9F20B3000D0D4B /* ZRRImageViewApp */;
+			targetProxy = CAFCF1FF1C9F20B4000D0D4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAFCF1F61C9F20B4000D0D4B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFCF1F71C9F20B4000D0D4B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFCF1D91C9F2067000D0D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAFCF1DA1C9F2067000D0D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CAFCF1DC1C9F2067000D0D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFCF1DD1C9F2067000D0D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAFCF2061C9F20B4000D0D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZRRImageViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zorroa.ZRRImageViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFCF2071C9F20B4000D0D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZRRImageViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zorroa.ZRRImageViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAFCF2091C9F20B4000D0D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZRRImageViewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zorroa.ZRRImageViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZRRImageViewApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CAFCF20A1C9F20B4000D0D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZRRImageViewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zorroa.ZRRImageViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZRRImageViewApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFCF1CD1C9F2067000D0D4B /* Build configuration list for PBXProject "ZRRImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCF1D91C9F2067000D0D4B /* Debug */,
+				CAFCF1DA1C9F2067000D0D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFCF1DB1C9F2067000D0D4B /* Build configuration list for PBXNativeTarget "ZRRImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCF1DC1C9F2067000D0D4B /* Debug */,
+				CAFCF1DD1C9F2067000D0D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAFCF2051C9F20B4000D0D4B /* Build configuration list for PBXNativeTarget "ZRRImageViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCF2061C9F20B4000D0D4B /* Debug */,
+				CAFCF2071C9F20B4000D0D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAFCF2081C9F20B4000D0D4B /* Build configuration list for PBXNativeTarget "ZRRImageViewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCF2091C9F20B4000D0D4B /* Debug */,
+				CAFCF20A1C9F20B4000D0D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFCF1CA1C9F2067000D0D4B /* Project object */;
+}
