@@ -10,6 +10,8 @@ Bugs:
 
 * Fix XIB instantiation. IBOutlet fields not initialized when ZRRImageView assigned as custom type in IB.
 * Fit to window and fit to screen have the wrong bounds? These work in my other app that uses this code??
+* Create CocoaPod .podspec
+* Add license comment blocks
 
 Basics:
 
