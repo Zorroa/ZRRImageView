@@ -4,17 +4,15 @@
 profile
 tmp
 
-# Xcode temporary files
-*~.nib
-
-# Xcode build files
-DerivedData
-build
-
-# Xcode header maps
-*.hmap
-
 # Xcode private settings (window sizes, bookmarks, breakpoints, custom executables, smart groups)
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData
+
+## Various settings
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -25,15 +23,18 @@ build
 !default.perspectivev3
 xcuserdata
 
-# Xcode depricated classes
-*.moved-aside
-
-# Xcode VCM info
-*.xccheckout
-
 # AppCode
 .idea
 
 # CocoaPods
 Pods
 
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
